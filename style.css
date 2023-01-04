@@ -1,0 +1,128 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 8px;
+}
+
+body {
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+h1 {
+    color: rgb(5, 5, 134);
+    margin-top: 14px;
+}
+
+h2 {
+    margin-top: 14px;
+}
+
+td {
+    color: rgb(12, 77, 12);
+}
+
+ol, ul, dl {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+li {
+    font-weight: bold;
+}
+
+p {
+    font-weight: normal;
+}
+
+dt {
+    font-weight: bold;
+}
+
+ a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+h4 {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    background-color: rgb(130, 237, 14);
+    border: 2px solid rgb(42, 229, 13);
+    border-radius: 10px;
+}
+
+main {
+    border: 2px solid rgb(42, 229, 13);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+    margin-right: 10px;
+    width: 70%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    
+}
+
+img {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 1px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1020px) {
+    main {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1020px) {
+    main {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 540px) {
+    main {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 900px) {
+    .content {
+        display: block;
+    }
+
+    .sidebar {
+        display: block;;
+    }
+}

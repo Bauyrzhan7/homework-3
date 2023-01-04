@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <main>
+      <h1>Страница регистрации</h1>
+
+      <fieldset>
+        <legend>Имя и фамилия пользователя</legend>
+        <label for="firstname"
+          ><input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="введите имя"
+        /></label>
+        <label for="lastname"
+          ><input
+            type="text"
+            id="lastname"
+            name="lastname"
+            placeholder="введите фамилию"
+        /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Дата рождения</legend>
+        <label for="date"><input type="date" id="date" name="date" /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Пол</legend>
+        <label for="male"
+          ><input type="radio" id="male" name="gender" />Мужчина</label
+        >
+        <label for="male"
+          ><input type="radio" id="male" name="gender" />Женщина</label
+        >
+      </fieldset>
+
+      <fieldset>
+        <legend>Электронная почта</legend>
+        <label for="email"
+          ><input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="введите email"
+        /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Телефон</legend>
+        <label for="tel"><input type="tel" id="tel" name="tel" placeholder="введите номер телефона" /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Пароль</legend>
+        <label for="password"
+          ><input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="введите пароль"
+        /></label>
+      </fieldset>
+
+      <fieldset>
+        <label for="consent"
+          ><input type="checkbox" id="consent" />Я принимаю условия
+          пользовательского соглашения и даю согласие на обработку персональных
+          данных</label
+        >
+      </fieldset>
+
+      <button type="submit"><a href="page2.html">Зарегистрироваться</a></button>
+    </main>
+  </body>
+</html>
